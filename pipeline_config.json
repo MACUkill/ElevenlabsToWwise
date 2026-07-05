@@ -1,0 +1,46 @@
+{
+  "api_key": "",
+  "tts_model": "eleven_v3",
+  "s2s_model": "eleven_multilingual_sts_v2",
+  "format": "pcm_44100",
+  "audio_root": "\\Containers\\Default Work Unit\\VOICEOVER",
+  "event_root": "\\Events\\Default Work Unit\\VOICEOVER",
+  "ue_root": "F:\\Thug Life\\ThugLife\\Content\\WwiseAudio\\Events",
+  "loudnorm": false,
+  "marker_offset_ms": 8,
+  "type_tree": {
+    "Bark": [
+      "Barks"
+    ],
+    "Effort": [
+      "Efforts"
+    ],
+    "Story": [
+      "Story"
+    ],
+    "ConvB": [
+      "Conversations",
+      "Background"
+    ],
+    "ConvH": [
+      "Conversations",
+      "Highlighted"
+    ]
+  },
+  "tree_object": "ActorMixer",
+  "speaker_object": "ActorMixer",
+  "container_object": "RandomSequenceContainer",
+  "context_object": "Folder",
+  "type_lufs": {
+    "Bark": -18.0,
+    "Effort": -16.0,
+    "Story": -19.0,
+    "ConvB": -20.0,
+    "ConvH": -19.0
+  },
+  "subtitle_strip_regex": [
+    "\\[.*?\\]",
+    "\\*.*?\\*",
+    "(?:\\s*\\.\\.\\.)+\\s*$"
+  ]
+}
