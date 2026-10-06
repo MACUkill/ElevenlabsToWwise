@@ -1,11 +1,11 @@
 {
-  "api_key": "",
+  "api_key": "sk_df7ce4898db65ca9b31af32dafdd8ea5466071b8f59d62d2",
   "tts_model": "eleven_v3",
-  "s2s_model": "eleven_multilingual_sts_v2",
-  "format": "pcm_44100",
-  "audio_root": "\\Containers\\Default Work Unit\\VOICEOVER",
-  "event_root": "\\Events\\Default Work Unit\\VOICEOVER",
-  "ue_root": "F:\\Thug Life\\ThugLife\\Content\\WwiseAudio\\Events",
+  "s2s_model": "eleven_english_sts_v2",
+  "format": "pcm_24000",
+  "audio_root": "\\Events\\Default Work Unit\\VOICEOVER\\Story\\Jane\\play_vo_jane_story_q01_040",
+  "event_root": "\\Events\\Default Work Unit\\VOICEOVER\\Story\\Jane\\play_vo_jane_story_q01_040",
+  "ue_root": "/Game/WwiseAudio/Events",
   "loudnorm": false,
   "marker_offset_ms": 8,
   "type_tree": {
